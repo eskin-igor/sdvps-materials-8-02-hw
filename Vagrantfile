@@ -90,6 +90,6 @@ Vagrant.configure("2") do |config|
     tar -C /usr/local -xzf go1.17.5.linux-amd64.tar.gz
     echo 'export PATH=$PATH:/usr/local/go/bin' >> /etc/profile
     
-    echo -e "192.168.56.10\tubuntu-bionic\tubuntu-bionic" >> /etc/hosts
+    echo -e "192.168.1.127\tubuntu-bionic\tubuntu-bionic" >> /etc/hosts
   SHELL
 end
